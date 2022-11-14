@@ -8,8 +8,7 @@ html body {
 /*RESTABLESCO LA PAGINA, SI MARGEN EN LOS BORDES*/
 
 #Fondo {
-    background-image: url(/Imagenes/Fondo_Espacio.gif);
-    color: white;
+    background-image: url(/Imagenes/Fondo_Espacio.gif) color: white;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: 100% 120%;
