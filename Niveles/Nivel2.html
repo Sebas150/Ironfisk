@@ -1,14 +1,97 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="/Css/Estilos.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!--iMPORTE UN TIPO DE LETA-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <title>Juegos</title>
 </head>
 
-<body>
+<body id="Fondo">
+
+    <!--SECCION - CONTENEDOR GENERAL-------------------------------------------------------------->
+
+    <section id="Seccion_suprema" class="Contenedor_Supremo">
+
+
+        <section id="NIVEL_02">
+            <!--SEGUNDO LVL------------------------------------------------------------------------>
+
+
+            <!--Contenedor-Cabezera-->
+            <div class="Cabezeralvl2 Contenedorlvl2">
+                <div class="Tiempolvl2">
+                    <h3>TIEMPO</h3><span id="Tiempolvl2">60</span></div>
+                <!--Tiempo con su span para la el final del minuto-->
+                <div class="Puntajelvl2">
+                    <h3>PUNTAJE</h3><span id="Puntajelvl2">0 / 34</span></div>
+                <!--Puntaje con su span que indica el puntaje-->
+                <div class="Pauselvl2" id="Pauselvl2">
+                    <h3>PAUSE / REANUDA</h3>
+                </div>
+                <!--Boton de pause-->
+
+            </div>
+
+            <!--CCMIENZO DEL JUEGO------------------------------------------------------>
+
+            <!--Contenedor general del juego-->
+            <div class="Contenedorlvl2">
+                <!--IMAGENES DEBTRO DE JUEGO-->
+                <img src="/Imagenes/Metiorito.png" width="70px" class="Meteioritolvl2" id="Meteioritolvl2">
+                <img src="/Imagenes/Metiorito.png" width="70px" class="Meteioritolvl2" id="Meteiorito2lvl2">
+                <img src="/Imagenes/Metiorito.png" width="70px" class="Meteioritolvl2" id="Meteiorito3lvl2">
+                <img src="/Imagenes/planeta_tierra.png" width="400px" class="Planetalvl2">
+                <!--Limite dentro del tablero del juego-->
+                <div class="Limitelvl2"></div>
+
+                <!--ELEMENTOS DE START---------------------------------------------------------->
+
+                <!--Pantalla principal al ingresar al juego START-->
+                <div class="Startlvl2" id="Startlvl2">
+                    <h1 class="Texolvl2" id="Texolvl2">¿LISTO PARA SALVAR<br> EL MUNDO? -> LVL: 2 </h1>
+                    <div id="Dificultad">
+                        <img src="/Imagenes/Tiburon.gif" width="18%">
+                        <h1 style="font-size: 27px; font-family: 'Press Start 2P', cursive;">&nbsp;Dificultad : Tiburon&nbsp;</h1>
+                        <img src="/Imagenes/Tiburon.gif" width="18%">
+                    </div>
+                    <!--Titulo de la seccion start-->
+                    <br>
+                    <div class=Playlvl2 id="Playlvl2">JUGAR</div>
+                    <!--Boton de jugar-->
+                    <div id="Contenedor_contadorlvl2"><span id="RGBlvl2"></span></div>
+                    <!--Span que contiene el conteo-->
+                </div>
+
+
+                <!--PANTALLA AL PRECIONAR PAUSE---------------------------------------------->
+                <div class="Pausa_Pantallalvl2" id="Pausa_Pantallalvl2">
+                    <h1 class="Mensaje_Pauselvl2">EL JUEGO ESTA<br> EN PAUSE</h1>
+                    <!--Mensaje del juego al estar en pausa-->
+                </div>
+
+                <div class="GanastePantallaLvL2" id="GanastePantallaLvL2">
+
+                    <h1>LOGRO DESBLOQUEADO:<br> AGILIDAD EXTREMA</h1>
+                    <h3>AHORA ESTAS MÁS CERCA DE COMPLETAR ESTE JUEGO, ASÍ QUE PREPARATE PARA LO PEOR, RECUERDA QUE LOS METEORITOS NO SON ALGO PARA TOMÁRSELO A LA LIGERA Y MÁS AUN EN EL SIGUIENTE NIVEL, EN DONDE LA DIFICULTAD AUMENTA EXPONENCIALMENTE
+                    </h3>
+                    <div style="display: flex; width: auto;">
+
+
+
+                        <script src="Ejecucion2.js"></script>
+                    </div>
+
+                </div>
+                <!--FIN DEL JUEGO-->
+        </section>
 
 </body>
 
